@@ -1,0 +1,178 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  position: relative;
+}
+
+.itemlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemlist table {
+  border-collapse: collapse;
+}
+
+.itemlist img {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+}
+
+.itemlist tr > th,
+td {
+  font-size: 1.5rem;
+  border-bottom: 2px solid grey;
+  padding-left: 30px;
+  text-align: LEFT;
+}
+
+.item {
+  background-color: black;
+}
+
+.voter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 25vh;
+}
+
+.voter-element {
+  background-color: white;
+  width: 33%;
+  height: 100%;
+  line-height: 2;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 4px solid var(--panel-color, #337ab7);
+}
+
+.voter-element.rerollbox {
+  --panel-color: #29acb6;
+}
+
+.element-header {
+  background-color: var(--panel-color, #337ab7);
+  color: white;
+
+  height: 20%;
+}
+
+.element-body {
+  height: 60%;
+}
+
+.rerollbox {
+  height: 80%;
+}
+
+.rerollbox .element-header {
+  height: 25%;
+}
+
+.rerollbox .element-body {
+  height: 50%;
+}
+
+.rerollbox .element-footer {
+  height: 25%;
+}
+
+.element-footer {
+  height: 20%;
+  background-color: #eee;
+}
+
+.element-footer.voteboxbutton {
+  padding: 0px;
+}
+
+.votebox .element-body {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.votebox img {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+}
+
+.navbarcontainer {
+  background-color: #111;
+  position: sticky;
+  top: 0;
+  height: 10vh;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  vertical-align: middle;
+}
+
+.navbar .active-nav-link {
+  color: white;
+}
+
+.navbar a {
+  color: #ccc;
+  text-decoration: none;
+  line-height: 2;
+  padding-right: 50px;
+  padding-top: 10px;
+  font-size: 2rem;
+}
+
+.infobox {
+  padding: 20px;
+  background-color: #eee;
+  border-radius: 10px;
+  border: 2px solid #eee;
+  min-height: 20vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.voter-element button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #ccc;
+  transition: background-color 100ms, color 100ms;
+}
+
+.voter-element button:hover {
+  background-color: var(--panel-color, #337ab7);
+  color: white;
+}
+
+.infobox-header {
+  font-size: 3rem;
+}
+
+.infobox-body {
+  font-size: 2rem;
+}
+
+.indent {
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
