@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/csgoitemranker/static/css/main.a278668f.chunk.css",
+    "main.js": "/csgoitemranker/static/js/main.4e6f28cf.chunk.js",
+    "main.js.map": "/csgoitemranker/static/js/main.4e6f28cf.chunk.js.map",
+    "runtime-main.js": "/csgoitemranker/static/js/runtime-main.eeb88c25.js",
+    "runtime-main.js.map": "/csgoitemranker/static/js/runtime-main.eeb88c25.js.map",
+    "static/js/2.0aff32e6.chunk.js": "/csgoitemranker/static/js/2.0aff32e6.chunk.js",
+    "static/js/2.0aff32e6.chunk.js.map": "/csgoitemranker/static/js/2.0aff32e6.chunk.js.map",
+    "index.html": "/csgoitemranker/index.html",
+    "static/css/main.a278668f.chunk.css.map": "/csgoitemranker/static/css/main.a278668f.chunk.css.map",
+    "static/js/2.0aff32e6.chunk.js.LICENSE.txt": "/csgoitemranker/static/js/2.0aff32e6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eeb88c25.js",
+    "static/js/2.0aff32e6.chunk.js",
+    "static/css/main.a278668f.chunk.css",
+    "static/js/main.4e6f28cf.chunk.js"
+  ]
+}
